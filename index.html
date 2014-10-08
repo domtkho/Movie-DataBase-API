@@ -3,10 +3,53 @@
 <head>
   <meta charset="UTF-8">
   <title>JSON Test</title>
+  <link rel="stylesheet" href="//ajax.googleapis.com/ajax/libs/jqueryui/1.11.1/themes/smoothness/jquery-ui.css" />
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css">
+  <link rel="stylesheet" href="css/main.css">
 </head>
 <body>
+  <div class="container">
+
+    <div class="searchBox">
+      <p>Search for your favourite movie!</p>
+      <form class="input">
+        <input type="text" class="movieName" placeholder="Movie Name" autofocus="true">
+        <input type="submit" class="btn btn-success submitBtn">
+      </form>
+    </div>
+
+    <div class="result"></div>
+
+    <div class="row">
+      <aside class="sideBar col-sm-4">
+        <div class="filmInfo poster"></div>
+      </aside>
+
+      <div class="rightCol col-sm-8">
+        <div class="title"></div>
+        <div class="row infoContainer">
+          <div class="leftBox">
+            <div class="released"></div>
+            <div class="director"></div>
+            <div class="genre"></div>
+            <div class="runtime"></div>
+          </div>
+          <div class="rightBox">
+            <div class="IMDBRating"></div>
+          </div>
+        </div>
+
+        <div class="actors"></div>
+        <div class="plot"></div>
+
+      </div>
+    </div>
+
+  </div>
+
 
   <script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+  <script src="//ajax.googleapis.com/ajax/libs/jqueryui/1.11.1/jquery-ui.min.js"></script>
   <script type="text/javascript" src="js/main.js"></script>
 </body>
 </html>

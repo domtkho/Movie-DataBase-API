@@ -1,0 +1,190 @@
+@font-face {
+  font-family: "Walkway";
+  src: url('/fonts/Walkway_Bold.ttf');
+}
+
+html {
+  height: 100%;
+}
+
+body {
+  height: 100%;
+  background: url('/img/movieImages.jpg');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+/*Search Section*/
+
+p {
+  color: #FFFFFF;
+  font-family: 'Walkway';
+  font-size: 28px;
+  margin: 0;
+}
+
+div.searchBox {
+  width: 600px;
+  background: #313B5B;
+  border: 5px solid #656576;
+  border-radius: 100px;
+  padding: 15px;
+  margin: 300px auto 0;
+  text-align: center;
+}
+
+div.searchBoxMid {
+  width: 600px;
+  background: #313B5B;
+  border: 5px solid #656576;
+  border-radius: 100px;
+  padding: 15px;
+  margin: 130px auto 0;
+  text-align: center;
+}
+
+div.searchBoxUp {
+  width: 600px;
+  background: #313B5B;
+  border: 5px solid #656576;
+  border-radius: 100px;
+  padding: 15px;
+  margin: 40px auto 0;
+  text-align: center;
+}
+
+input.movieName {
+  width: 300px;
+  height: 40px;
+  border: none;
+  border-radius: 50px;
+  padding-left: 20px;
+}
+
+input.submitBtn {
+  width: 100px;
+  height: 40px;
+  border-radius: 50px;
+  margin-left: 20px;
+}
+
+.input {
+  margin-top: 10px;
+}
+
+/*Search Results*/
+
+div.result {
+  width: 500px;
+  background: #656576;
+  border-radius: 20px;
+  margin: 20px auto 0;
+  padding: 20px;
+  text-align: center;
+}
+
+.searchResults {
+  color: #FFFFFF;
+}
+
+
+/*Side Bar*/
+
+aside.sideBar {
+  margin-top: 20px;
+}
+
+.result {
+  display: none;
+  font-size: 18px;
+  /*margin-top: 20px;*/
+}
+
+.poster {
+  margin: 0 auto;
+  text-align: center;
+}
+
+#poster {
+  border: 15px solid #6A101E;
+  display: none;
+}
+
+
+/*Main Content*/
+
+div.rightCol {
+  background: #D0CED4;
+  display: none;
+  margin-top: 20px;
+  padding-bottom: 60px;
+  text-align: center;
+}
+
+p.title {
+  color: #313B5B;
+  font-family: 'Walkway';
+  font-size: 36px;
+  margin: 20px 0;
+}
+
+.infoContainer {
+  margin-bottom: 20px;
+}
+
+div.leftBox {
+  width: 50%;
+  float: left;
+  padding-left: 30px;
+  text-align: left;
+}
+
+div.rightBox {
+  width: 49%;
+  float: right;
+  text-align: center;
+  padding-bottom: 50px;
+}
+
+div.IMDBRating {
+  margin: 20px auto 0;
+}
+
+div.actors,
+div.plot {
+  text-align: left;
+  padding-left: 15px;
+}
+
+p.released,
+p.director,
+p.genre,
+p.runtime,
+p.actors,
+p.plot {
+  color: #313B5B;
+  font-size: 18px;
+  margin: 0;
+}
+
+p.IMDBRating {
+  color: #DD5B31;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
